@@ -15,6 +15,7 @@ const thoughtsSchema = new Schema(
         {
             type: String,
             required: true,
+            maxLength: 280
             
         },
         
